@@ -1,0 +1,14 @@
+pyqt5
+speech_recognition
+webbrowser
+random
+wikipedia
+face_recognition
+python-aiml
+aiml
+win32com
+tkinter
+math
+cv2
+numpy
+os

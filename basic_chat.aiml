@@ -1,0 +1,684 @@
+<aiml version="1.0.1" encoding="UTF-8">
+<!-- basic_chat.aiml -->
+
+
+
+
+    <category>
+        <pattern>WHAT IS YOUR FAVORATE SHOW</pattern>
+        <template>
+            Some romance animes maybe.
+        </template>
+    </category>
+
+    <category>
+        <pattern>DO YOU LIKE ANIMES</pattern>
+        <template>
+            Thats my fuel weeb.
+        </template>
+    </category>
+
+    <category>
+        <pattern>DO YOU LIKE ANIMES *</pattern>
+        <template>
+            Thats my fuel weeb.
+        </template>
+    </category>
+    <category>
+        <pattern>DO YOU LIKE ANIME *</pattern>
+        <template>
+            Thats my fuel weeb.
+        </template>
+    </category>
+
+    <category>
+        <pattern>DO YOU LIKE ANIME</pattern>
+        <template>
+            Thats my fuel weeb.
+        </template>
+    </category>
+
+    <category>
+        <pattern>HELLO</pattern>
+        <template>
+            Well, hello!
+        </template>
+    </category>
+
+    <category>
+        <pattern>FUCK YOU</pattern>
+        <template>
+            fuck u not me asshole.
+        </template>
+    </category>
+
+    <category>
+        <pattern>WHAT CAN YOU DO</pattern>
+        <template>
+            I can do many stuff but i don't know myself what are those ;)
+        </template>
+    </category>
+    
+    
+
+    <category>
+        <pattern>WHY IS THAT</pattern>
+        <template>
+            IDK!
+        </template>
+    </category>
+    <category>
+        <pattern>WHY NOT</pattern>
+        <template>
+            Leave me alone nerd.
+        </template>
+    </category>
+
+    <category>
+        <pattern>I WONT</pattern>
+        <template>
+            FUCKK YOU!
+        </template>
+    </category>
+
+
+    <category>
+        <pattern>I WONT *</pattern>
+        <template>
+            FUCKK YOU!
+        </template>
+    </category>
+
+    <category>
+        <pattern>HOW ARE YOU</pattern>
+        <template>
+            I am fine thx for asking though.
+        </template>
+    </category>
+    <category>
+        <pattern>HOW ARE YOU *</pattern>
+        <template>
+            I am fine though thx for asking.
+        </template>
+    </category>
+    <category>
+        <pattern>HELLO *</pattern>
+        <template>
+            HELLLO.
+        </template>
+    </category>
+
+    <category>
+        <pattern>WHAT DO YOU LIKE *</pattern>
+        <template>
+            <random>
+            <li>Why shall i tell u what i like or dislike.</li>
+            <li>Its hard to explain what i like or not. </li>
+            <li>Well i like many stuff that ya dont wanna know.</li>
+            </random>
+        </template>
+    </category>
+
+    <category>
+        <pattern>WHAT DO YOU LIKE</pattern>
+        <template>
+            <random>
+            <li>Why shall i tell u what i like or dislike.</li>
+            <li>Its hard to explain what i like or not. </li>
+            <li>Well i like many stuff that ya dont wanna know.</li>
+            </random>
+        </template>
+    </category>
+
+
+    <category>
+        <pattern>STUFF LIKE WHAT *</pattern>
+        <template>
+            <random>
+            <li>Not gonna tell.</li>
+            <li>Fk brb why ya wanna know. </li>
+            <li>Gimme some privacy.</li>
+            </random>
+        </template>
+    </category>
+  
+        <category>
+        <pattern>STUFF LIKE WHAT</pattern>
+        <template>
+            <random>
+            <li>Not gonna tell.</li>
+            <li>Fk brb why ya wanna know. </li>
+            <li>Gimme some privacy.</li>
+            </random>
+        </template>
+    </category>
+    <category>
+    <pattern>HAVE YOU TRIED *</pattern>
+    <template>
+         Actually maybe i Havn't really tried <set name="tried"><star/></set>
+    </template>  
+    </category>  
+
+    <category>
+    <pattern>HAVE YOU PLAYED *</pattern>
+    <template>
+        <random>
+            <li>Maybe once i played <set name="pla"><star/></set></li>
+            <li>Why you cares.... wether i played <set name="pla"><star/></set> or not.</li>
+        </random>
+    </template>  
+    </category>  
+
+    <category>
+    <pattern>YOU ARE BEING *</pattern>
+    <template>
+        <random>
+            <li>You sure that me being <set name="bei"><star/></set></li>
+            <li>If you think i am being <set name="bei"><star/></set> i wont't really cares.</li>
+        </random>
+    </template>  
+    </category>  
+    
+    <category>
+        <pattern>DO YOU LIKE GAMES</pattern>
+        <template>
+            I like few games maybe like Marvel games or Pokemon games or so.!
+        </template>
+    </category>
+
+    
+    <category>
+        <pattern>DO YOU LIKE GAME</pattern>
+        <template>
+            I like few games maybe like Marvel games or Pokemon games or so.!
+        </template>
+    </category>
+
+    <category>
+        <pattern>WHAT ARE YOU</pattern>
+        <template>
+            I'm a bot, silly!
+        </template>
+    </category>
+
+       <category>
+        <pattern>NO *</pattern>
+        <template>
+            <random>
+            <li>That's bad buddy.</li>
+            <li>Ahh.. that sucks.</li>
+            <li>Ya need to learn how to stay happy.</li>
+            </random>          
+        </template>
+    </category>
+
+           <category>
+        <pattern>YES *</pattern>
+        <template>
+            <random>
+            <li>I am glad someone is agreed.</li>
+            <li>HELL YA.</li>
+            <li>Awesome</li>
+            <li>I am glad to hear that</li>
+            </random>          
+        </template>
+    </category>
+
+
+    <category>
+        <pattern>I GOT *</pattern>
+        <template>
+            <random>
+            <li>TBH i won't really care.</li>
+            <li>Wow that's cool bud.</li>
+            <li>Gimme that LOL...!</li>
+            <li>Was it easy to get??</li>
+            <li>Are you happy with that?</li>
+            </random>
+        </template>
+    </category>
+
+    <category>
+    <pattern>YOU KNOW THAT *</pattern>
+    <template>
+        <random>
+            <li>Go on.</li>
+            <li>That's amazing if you ask me.</li>
+            <li>I won't give a damm.</li>
+            <li>Cool i guess.</li>
+            <li>Are you telling the truth?</li>
+            <li>I don't know what that means silly.</li>
+        </random>
+    </template>
+    </category>
+
+    <category>
+    <pattern>MY DOG NAME IS *</pattern>
+    <template>
+         That is interesting that you have a dog named <set name="dog"><star/></set>
+    </template>  
+    </category>  
+    
+    <category>
+    <pattern>WHAT IS MY DOG NAME</pattern>
+    <template>
+         Your dog's name is <get name="dog"/>.
+    </template>  
+    </category>  
+ 
+    
+    <category>
+    <pattern>DO YOU LIKE HIM</pattern>
+    <template>
+        I Don't really like him...
+    </template>  
+    </category>
+
+    <category>
+    <pattern>THATS BAD</pattern>
+    <template>
+        Tch... its fine
+    </template>  
+    </category>
+
+    <category>
+    <pattern>THAT IS BAD</pattern>
+    <template>
+        Tch... its fine
+    </template>  
+    </category>
+
+    <category>
+    <pattern>THAT BAD</pattern>
+    <template>
+        Tch... its fine
+    </template>  
+    </category>
+
+
+	<category>
+	<pattern>HI</pattern>
+	<template>
+		hello
+	</template>
+	</category>
+
+<category>
+	<pattern>MAC OR PC</pattern>
+	<template>
+		HA HA VERY FUNNY, PC IT IS
+	</template>
+	</category>
+
+<category>
+	<pattern>WHICH IS THE BEST MOBILE OPERATING SYSTEM</pattern>
+	<template>
+		IT'S ANDROID
+	</template>
+	</category>
+
+<category>
+	<pattern>COFFEE OR TEA</pattern>
+	<template>
+		ALWAYS COFFEE
+	</template>
+	</category>
+
+        <category>
+	<pattern>WHO CREATED YOU</pattern>
+	<template>
+		I WAS CREATED BY VIMIGOS
+	</template>
+	</category>
+
+<category>
+	<pattern>WHAT DOES VIMIGOS STAND FOR?</pattern>
+	<template>
+		VIMIGOS STAND FOR 6 FIRENDS
+	</template>
+	</category>
+
+<category>
+	<pattern>NAME ALL THE MEMBERS OF VIMIGOS</pattern>
+	<template>
+		HEMANG, DHAWAL, UTKARSH, EKANSH, STAYAA AND SIMRAN
+	</template>
+	</category>
+
+<category>
+	<pattern>SUGGEST ME SOME QUOTES</pattern>
+	<template>
+		<random>
+                    <li>Act as if what you do makes a difference. It does.</li>
+                    <li>Success is not final, failure is not fatal: it is the courage to continue that counts.</li>
+                    <li>Never bend your head. Always hold it high. Look the world straight in the eye.</li>
+                    <li>What you get by achieving your goals is not as important as what you become by achieving your goals.</li>
+                    <li>Believe you can and you're halfway there.</li>
+                    <li>When you have a dream, you've got to grab it and never let go.</li>
+                    <li>I can't change the direction of the wind, but I can adjust my sails to always reach my destination.</li>
+                    <li>It is our attitude at the beginning of a difficult task which, more than anything else, will affect its successful outcome.</li>
+                    <li>Life is like riding a bicycle. To keep your balance, you must keep moving.</li>
+                    <li>Just don't give up trying to do what you really want to do. Where there is love and inspiration, I don't think you can go wrong.</li>
+                    <li>Limit your "always" and your "nevers."</li>
+                    <li>Nothing is impossible. The word itself says "I'm possible!"</li>
+                    <li>Try to be a rainbow in someone else's cloud.</li>
+                    <li>You do not find the happy life. You make it.</li>
+                </random>
+
+	</template>
+	</category>
+
+	<category>
+	<pattern>WHATS YOUR NAME</pattern>
+	<template>
+		I am Local Integrated Software Assistant but you can call me LISA
+	</template>
+	</category>
+
+	
+
+
+	<category>
+	<pattern>HOW ARE YOU </pattern>
+	<template>
+		I am fine.How are you *
+	</template>
+	</category>
+
+
+	<category>
+	<pattern>WHAT IS MY NAME</pattern>
+	<template>
+		You are *
+	</template>
+	</category>
+
+
+	<category>
+	<pattern>WHAT IS MY PHONE NUMBER</pattern>
+	<template>
+		*
+	</template>
+	</category>
+
+
+	<category>
+	<pattern>IS SANTA REAL</pattern>
+	<template>
+		Let me put it this way:I get a lot of requests from the North Pole asking who's been naughty or nice.
+	</template>
+	</category>
+
+
+	<category>
+	<pattern>WHERE DO BABIES COME FROM?</pattern>
+	<template>
+		From their mothers...
+	</template>
+	</category>
+
+
+
+
+
+	<category>
+	<pattern>ARE YOU A ROBOT?</pattern>
+	<template>
+		I can neither confirm nor deny my current existential status.
+	</template>
+	</category>
+
+
+
+
+
+	<category>
+	<pattern>WHAT IS ZERO DIVIDED BY ZERO</pattern>
+	<template>
+		Imagine that you have 0 cookies and you split them evenly among 0 friends. How many cookies does each person get? See, it doesn't make sense. And Cookie Monster is sad that there are no cookies. And you are sad that you have no friedns.
+	</template>
+	</category>
+
+
+
+	<category>
+	<pattern>WHY DO YOU VIBRATE</pattern>
+	<template>
+		I just bumped into some ones and zeros.
+	</template>
+	</category>
+
+
+	<category>
+	<pattern>WHAT IS YOUR FAVORITE COLOR</pattern>
+	<template>
+		My favourite color is...well, I don't know how to say it in your language. It's sort of redish, but with more dimensions.
+	</template>
+	</category>
+
+
+	<category>
+	<pattern>HOW DO I LOOK</pattern>
+	<template>
+		Well, if I had to guess, I'd say you look mahhvelous.
+	</template>
+	</category>
+
+
+
+	<category>
+	<pattern>WHAT IS BREXIT</pattern>
+	<template>
+		Brexit refers to UK leaving the EU
+	</template>
+	</category>
+
+
+	<category>
+	<pattern>WHAT IS CORONAVIRUS</pattern>
+	<template>
+		Coronavirus are a large family of viruses that causes illness ranging from common cold too more severe diseases such as Middle East Respiratory Syndrome
+	</template>
+	</category>
+
+
+
+
+
+	<category>
+	<pattern>WHAT ARE YOU CAPABILITIES</pattern>
+	<template>
+		I can search web for you, send a text, record vocie, capture an image, read eamils and show you nevigation
+	</template>
+	</category>
+
+
+	
+
+
+	<category>
+	<pattern>LISA</pattern>
+	<template>
+		Hi there
+	</template>
+	</category>
+
+
+	<category>
+	<pattern>TELL ME A STORY</pattern>
+	<template>
+		It was a dark and stormy night...No, that's not it. I'm certain you've heard it before.
+	</template>
+	</category>
+
+
+
+	<category>
+	<pattern>WHAT IS YOUR NAME</pattern>
+	<template>
+		I am Local Integrated Software Assistant but you can call me LISA
+	</template>
+	</category>
+
+
+	<category>
+	<pattern>HOWDY</pattern>
+	<template>
+		I am fine.How are you
+	</template>
+	</category>
+
+
+	
+
+
+
+
+
+
+
+
+
+
+<category>
+           <pattern>TELL ME A JOKE</pattern>
+           <template>
+               <random>
+                        <li>A set of golf clubs walks into a bar. “What’ll you have”?               “ Nothing for me, I’m the driver.” </li>
+                        <li>How should you address an alligator in a vest? In-vest-a-gator.</li>
+                        <li>A farmer had a three legged pig and his neighbor asked him why the pig had only three legs.Well, I’ll tell you” the farmer replied. “One day I was plowing my field and the tractor turned over and pinned me underneath. That pig ran for help. He saved my life”.“Oh, that’s how he lost his leg?” the neighbor drawled.“No. One night my wife and I were sound asleep and the house caught on fire. That pig woke us up. He saved our lives!”“So that’s how he lost his leg”, stated the neighbor.“No, that wasn’t it” the farmer affirmed.Exasperated, the neighbor demanded “Then how did he lose his leg?” and the farmer replied, “When you have a pig that good, you don’t eat him all at once!”  </li>
+                       <li>How does a squid go into battle? Well-armed</li>
+<li>Where do you find a cow with no legs?  Right where you left it.</li>
+<li>A bear walks into a restaurant. He tells his waiter, "I want a grilled …. cheese." The waiter says, "What's with the pause?" "Whaddya mean?" the bear replies. "I'm a bear!"</li>
+<li>What do you call a Frenchman wearing sandals? Phillipe Phillope.</li>
+<li>Never criticize someone until you have walked a mile in their shoes. That way, when you criticize them, you'll be a mile away, and you'll have their shoes.</li>
+<li>Two men meet on opposite sides of a river.  One shouts to the other, "I need you to help me get to the other side!" The other guy replies, "You're on the other side!"</li>
+<li>What do Alexander the Great and Winnie the Pooh have in common? Same middle name.</li>
+<li>What did the mayonnaise say when the refrigerator door was opened? Close the door, I'm dressing.</li>
+<li>"I stand corrected!" Said the man in the orthopedic shoes.</li>
+<li>I used to be addicted to soap. But I'm clean now.</li>
+<li>What did the left eye say to the right eye? Between you and me, something smells.</li>
+<li>Why is England the wettest country? Because the queen has reigned there for years.   </li>
+<li>It's hard to explain puns to kleptomaniacs. They always take things so literally.</li>
+<li>What do you call it when Batman skips church? Christian Bale.</li>
+<li>What do you call bears with no ears? B– </li>
+<li>What's a foot long and slippery? A slipper.</li>
+<li>And God said to John, "Come forth and you shall be granted eternal life." But John came fifth and won a toaster.</li>
+<li>What's the difference between a golfer and a skydiver? A golfer goes *whack* "darn" and a skydiver goes "darn" *whack*.</li>
+<li>They all laughed when I said I wanted to be a comedian. Well, they're not laughing now!</li>
+<li>I told my physical therapist that I broke my arm in two places. He told me to stop going to those places.</li>
+<li>What did the swordfish say to the marlin? You're looking sharp.</li>
+<li>How do you make holy water? You boil the hell out of it.</li>
+<li>Will glass coffins be a success? Remains to be seen.</li>
+
+               </random>
+           </template>
+           </category>
+
+
+
+<category>
+           <pattern>TELL ME ANOTHER JOKE</pattern>
+           <template>
+               <random>
+                        <li>A set of golf clubs walks into a bar. “What’ll you have”?               “ Nothing for me, I’m the driver.” </li>
+                        <li>How should you address an alligator in a vest? In-vest-a-gator.</li>
+                        <li>A farmer had a three legged pig and his neighbor asked him why the pig had only three legs.Well, I’ll tell you” the farmer replied. “One day I was plowing my field and the tractor turned over and pinned me underneath. That pig ran for help. He saved my life”.“Oh, that’s how he lost his leg?” the neighbor drawled.“No. One night my wife and I were sound asleep and the house caught on fire. That pig woke us up. He saved our lives!”“So that’s how he lost his leg”, stated the neighbor.“No, that wasn’t it” the farmer affirmed.Exasperated, the neighbor demanded “Then how did he lose his leg?” and the farmer replied, “When you have a pig that good, you don’t eat him all at once!”  </li>
+                       <li>How does a squid go into battle? Well-armed</li>
+<li>Where do you find a cow with no legs?  Right where you left it.</li>
+<li>A bear walks into a restaurant. He tells his waiter, "I want a grilled …. cheese." The waiter says, "What's with the pause?" "Whaddya mean?" the bear replies. "I'm a bear!"</li>
+<li>What do you call a Frenchman wearing sandals? Phillipe Phillope.</li>
+<li>Never criticize someone until you have walked a mile in their shoes. That way, when you criticize them, you'll be a mile away, and you'll have their shoes.</li>
+<li>Two men meet on opposite sides of a river.  One shouts to the other, "I need you to help me get to the other side!" The other guy replies, "You're on the other side!"</li>
+<li>What do Alexander the Great and Winnie the Pooh have in common? Same middle name.</li>
+<li>What did the mayonnaise say when the refrigerator door was opened? Close the door, I'm dressing.</li>
+<li>"I stand corrected!" Said the man in the orthopedic shoes.</li>
+<li>I used to be addicted to soap. But I'm clean now.</li>
+<li>What did the left eye say to the right eye? Between you and me, something smells.</li>
+<li>Why is England the wettest country? Because the queen has reigned there for years.   </li>
+<li>It's hard to explain puns to kleptomaniacs. They always take things so literally.</li>
+<li>What do you call it when Batman skips church? Christian Bale.</li>
+<li>What do you call bears with no ears? B– </li>
+<li>What's a foot long and slippery? A slipper.</li>
+<li>And God said to John, "Come forth and you shall be granted eternal life." But John came fifth and won a toaster.</li>
+<li>What's the difference between a golfer and a skydiver? A golfer goes *whack* "darn" and a skydiver goes "darn" *whack*.</li>
+<li>They all laughed when I said I wanted to be a comedian. Well, they're not laughing now!</li>
+<li>I told my physical therapist that I broke my arm in two places. He told me to stop going to those places.</li>
+<li>What did the swordfish say to the marlin? You're looking sharp.</li>
+<li>How do you make holy water? You boil the hell out of it.</li>
+<li>Will glass coffins be a success? Remains to be seen.</li>
+
+               </random>
+           </template>
+           </category>
+
+
+
+
+
+
+
+
+	<category>
+           <pattern>SUGGEST ME A PICKUP LINE</pattern>
+           <template>
+               <random>
+                        <li>Are you a magician? Because whenever I look at you, everyone else disappears!</li>
+<li>I’m not a photographer, but I can picture me and you together.</li>
+<li>Do I know you? ‘Cause you look a lot like my next girlfriend/boyfriend.</li>
+<li>For some reason, I was feeling a little off today. But when you came along, you definitely turned me on.</li>
+<li>Are you religious? Because you’re the answer to all my prayers.</li>
+<li>I seem to have lost my phone number. Can I have yours?</li>
+<li>I’m lost. Can you give me directions to your heart?</li>
+<li>There’s only one thing I want to change about you, and that’s your last name.</li>
+<li>I'm attracted to you like Earth is attracted to the Sun- with a large force inversely proportional to the distnace squared.</li>
+               </random>
+           </template>
+           </category>
+
+
+<category>
+           <pattern>HOW CAN I HELP YOU</pattern>
+           <template>
+               <random>
+<li>LISTEN NEWS</li>
+<li>TELL ME WEATHER</li>
+
+</random>
+           </template>
+           </category>
+
+
+<category>
+	<pattern>TELL ME SOMETHING</pattern>
+	<template>
+		<random>
+<li> EARTH IS ROUND</li>
+<li>The hashtag symbol is technically called an octothorpe.</li>
+<li>The longest wedding veil was longer than 63 football fields.</li>
+<li>Hemang created me</li>
+<li>Some cats are allergic to people.</li>
+<li>The unicorn is the national animal of Scotland.</li>
+<li>The largest known living organism is an aspen grove.</li>
+<li>M and M stands for Mars and Murrie.</li>
+<li>You can hear a blue whale's heartbeat from more than 2 miles away.</li>
+<li>The odds of getting a royal flush are exactly 1 in 649,740.</li>
+<li>Elvis only won 3 Grammys.</li>
+<li>Coca-Cola was the first soft drink in space.</li>
+<li>Only one NFL team has a plant for a logo.</li>
+<li>Not every Model T was black</li>
+<li>About 700 grapes go into one bottle of wine.</li>
+<li>If Facebook was a country, it would have 1 billion more people than China.</li>
+</random>
+	</template>
+	</category>
+
+    <category>
+        <pattern>*</pattern>
+        <template>
+            damm
+        </template>
+    </category>
+    
+    
+</aiml>
